@@ -13,27 +13,22 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
-/* Reusable Component */
-.container {
-	max-width: 1321px;
-	margin: 0 auto;
+/* Hero Section Styling */
+.hero,
+.match {
+	padding: 30px 120px;
 }
-
-/* Hero section styling */
-.hero-container {
-	background: #161616;
-	border-radius: 30px;
-	margin-top: 50px;
+.hero .container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #161616;
+	border-radius: 30px;
+	margin-top: 20px;
 	padding: 0 100px;
 	padding-top: 30px;
 }
 
-.hero-text {
-	width: 50%;
-}
 .hero-text h1 {
 	font-style: normal;
 	font-weight: 700;
@@ -67,17 +62,16 @@ body {
 .hero-image img {
 	width: 581px;
 	padding-bottom: 0;
+	padding-left: 30px;
 }
-/* Match Styling */
+
+/* Match Section Stylin */
 .match-container {
 	display: flex;
-	justify-content: center;
-	margin-top: 100px;
-	margin-bottom: 70px;
 }
 
 .match-menu {
-	width: 312px;
+	width: 280px;
 	height: 312px;
 	background: #161616;
 	border-radius: 10px;
@@ -88,7 +82,7 @@ body {
 .match-menu .upcoming-match,
 .all-group,
 .blog {
-	width: 252px;
+	width: 225px;
 	height: 64px;
 	background: #ffffff;
 	border-radius: 10px;
@@ -107,6 +101,7 @@ body {
 	background: #dd0000;
 	color: white;
 }
+
 .match-boxes {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -181,6 +176,7 @@ body {
 	width: 131px;
 	display: none;
 }
+
 /* Footer Styling */
 .footer {
 	background: #161616;
